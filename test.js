@@ -18,3 +18,4 @@ function add(a, b) {
 
 
 
+window.add = add
