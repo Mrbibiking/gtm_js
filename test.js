@@ -10,8 +10,11 @@ function ping() {
 	Http.onreadystatechange = (e) => {
 	  console.log(Http.responseText);
 	};
-
 }
+
+function add(a, b) {
+    return a+b;
+} 
 
 
 
